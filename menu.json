@@ -1,29 +1,31 @@
 {
   "storeName": "Putu Piring Uni",
-  "operatingHours": "2:30 PM - 7:00 PM (Selasa - Ahad)",
-  "location": "Gerai Putu Piring Uni (Pickup / Delivery kawasan sekitar)",
+  "organization": "UiTM Diploma Students - ENT300 Entrepreneurship Project",
+  "courseRef": "D:\\RepoTools\\GitHub\\uitm-course\\ENT300",
+  "operatingHours": "5:00 PM - 9:30 PM (Petang / Malam)",
+  "coverageArea": "Kampus UiTM (Kolej Kediaman, PTAR) & Sekitar Bandar Puteri Jaya (Fasa 5), Sungai Petani",
   "currency": "MYR",
   "items": [
     {
-      "id": "putu-original",
-      "name": "Putu Piring Asli Gula Melaka",
-      "description": "4 keping putu piring gebu berinti gula melaka Melaka asli bersama kelapa parut segar bergaram halus.",
-      "pricePerSet": 5.00,
-      "piecesPerSet": 4,
+      "id": "pakej-1",
+      "name": "Pakej 1: Putu Piring Asli (2 keping)",
+      "description": "2 keping putu piring gebu berinti gula melaka asli bersama kelapa parut segar bergaram halus.",
+      "price": 2.00,
+      "piecesPerSet": 2,
       "status": "available"
     },
     {
-      "id": "putu-coklat",
-      "name": "Putu Piring Coklat Special",
-      "description": "4 keping putu piring berinti coklat berkrim cair.",
-      "pricePerSet": 6.00,
-      "piecesPerSet": 4,
+      "id": "pakej-2",
+      "name": "Pakej 2: Putu Piring (2 keping) + Kopi O Tradisi",
+      "description": "Kombo minum petang: 2 keping putu piring panas bersama secawan Kopi O aromatik.",
+      "price": 3.00,
+      "piecesPerSet": 2,
       "status": "available"
     }
   ],
   "paymentMethods": [
     "DuitNow QR",
     "Online Bank Transfer",
-    "Cash on Pickup"
+    "Cash on Delivery / Pickup"
   ]
 }

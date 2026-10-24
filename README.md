@@ -2,29 +2,26 @@
 
 Selamat datang ke repositori rasmi **Putu Piring Uni**!
 
-Repositori ini mengandungi maklumat perniagaan, menu, rekod pesanan, dan tetapan ejen AI Telegram (`@putu_uni_bot`) yang membantu menguruskan tempahan dan khidmat pelanggan secara automatik.
+Perniagaan ini merupakan projek keusahawanan sebenar yang diusahakan oleh **mahasiswa Diploma UiTM** bagi memenuhi keperluan kursus wajib **ENT300 (Fundamentals of Entrepreneurship)**.
+
+> **Rujukan Kursus:** [`D:\RepoTools\GitHub\uitm-course\ENT300`](file:///D:/RepoTools/GitHub/uitm-course/ENT300)  
+> **Bot Telegram Rasmi:** [@putu_uni_bot](https://t.me/putu_uni_bot)  
+> **Sasaran Pasaran:** Warga kampus UiTM (Kolej Kediaman, PTAR) & komuniti setempat
 
 ---
 
-## 🍽️ Menu Utama
+## 🍽️ Tentang Produk Kami
 
-| Item | Keterangan | Harga |
-| :--- | :--- | :--- |
-| **Putu Piring Asli Gula Melaka** | 4 keping gebu bersama kelapa parut segar | RM 5.00 / set |
-| **Putu Piring Coklat Special** | 4 keping inti coklat berkrim | RM 6.00 / set |
-
----
-
-## 📱 Hubungi / Tempah Melalui Telegram
-
-- **Bot Telegram:** [@putu_uni_bot](https://t.me/putu_uni_bot)
-- **Pengurus Gerai:** @adiwangza
+Putu Piring Uni membawakan hidangan tradisi putu piring yang dikukus segar:
+* **Tepung Beras Asli Gebu** — Dikukus lembut mengikut pesanan.
+* **Inti Gula Melaka Asli** — Manis beraroma dan cair di mulut.
+* **Kelapa Parut Segar** — Ditabur dengan sedikit garam halus untuk rasa lemak manis yang seimbang.
 
 ---
 
-## 📁 Struktur Direktori
+## 📁 Struktur Projek
 
-- `AGENTS.md` — Panduan arahan dan protokol pesanan untuk ejen AI.
-- `menu.json` — Data berstruktur senarai menu dan harga terkini.
-- `payment_info.md` — Maklumat DuitNow QR dan akaun bank untuk pembayaran.
-- `orders/` — Rekod arkib pesanan pelanggan yang telah disahkan.
+- `AGENTS.md` — Panduan arahan dan persona keusahawanan siswa untuk ejen AI Telegram.
+- `menu.json` — Senarai menu, pakej dan harga.
+- `payment_info.md` — Maklumat pembayaran (DuitNow QR / Bank).
+- `orders/` — Rekod pesanan pelanggan bagi tujuan operasi dan dokumentasi laporan ENT300.
