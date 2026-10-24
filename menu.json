@@ -5,6 +5,11 @@
   "operationalModel": "Pre-order only (Pra-pesanan sahaja)",
   "operatingHours": "6:30 PM - 9:00 PM (Waktu penghantaran & self-pickup)",
   "orderScheduleNotice": "Kami beroperasi secara pra-pesanan sahaja kerana komitmen jadual kuliah, tugasan, projek dan penilaian pada waktu siang.",
+  "productSpecs": {
+    "flavor": "Original (Satu perisa sahaja)",
+    "filling": "Gula Merah dan Kelapa Parut Putih",
+    "packaging": "Dibalut kemas dengan kertas minyak"
+  },
   "delivery": {
     "fee": 0.50,
     "feeFormatted": "RM 0.50",
@@ -20,18 +25,20 @@
   "items": [
     {
       "id": "pakej-1",
-      "name": "Pakej 1: Putu Piring Asli (2 keping)",
-      "description": "2 keping putu piring gebu berinti gula melaka asli bersama kelapa parut segar bergaram halus.",
-      "price": 2.00,
+      "name": "Pakej 1: Satu Set Putu Piring (2 biji)",
       "piecesPerSet": 2,
+      "description": "Satu set (sebungkus) mengandungi 2 biji putu piring gebu berinti Gula Merah dan Kelapa Parut Putih, dibalut dengan kertas minyak.",
+      "price": 2.00,
+      "priceFormatted": "RM 2.00",
       "status": "available"
     },
     {
       "id": "pakej-2",
-      "name": "Pakej 2: Putu Piring (2 keping) + Kopi O Tradisi",
-      "description": "Kombo minum petang: 2 keping putu piring panas bersama secawan Kopi O aromatik.",
-      "price": 3.00,
+      "name": "Pakej 2: Satu Set Putu Piring (2 biji) + Kopi-O",
       "piecesPerSet": 2,
+      "description": "Satu set (sebungkus) mengandungi 2 biji putu piring berinti Gula Merah dan Kelapa Parut Putih bersama secawan Kopi-O.",
+      "price": 2.50,
+      "priceFormatted": "RM 2.50",
       "status": "available"
     }
   ],

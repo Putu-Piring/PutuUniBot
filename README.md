@@ -20,6 +20,20 @@ Kami **hanya menerima pra-pesanan (pre-order)** kerana kami mempunyai jadual yan
 
 ---
 
+## 🍽️ Produk & Senarai Menu
+
+Putu Piring kami dijual hanya dalam **satu perisa original**:
+* **Inti Gula Merah & Kelapa Parut Putih** — Manis beraroma dengan kelapa parut putih segar.
+* **Pembungkusan Tradisi** — Dibalut kemas dengan **kertas minyak**.
+
+### 📜 Pilihan Pakej
+| Pakej | Butiran | Kuantiti | Harga |
+| :--- | :--- | :---: | :---: |
+| **Pakej 1** | Satu Set Putu Piring Asli | 2 biji | **RM 2.00** |
+| **Pakej 2** | Satu Set Putu Piring + Kopi-O | 2 biji + Kopi-O | **RM 2.50** |
+
+---
+
 ## 🛵 Kawasan Penghantaran & Caj (Delivery)
 
 Kami menyediakan khidmat penghantaran ke **3 kawasan utama**:
@@ -29,15 +43,6 @@ Kami menyediakan khidmat penghantaran ke **3 kawasan utama**:
 
 - **Caj Penghantaran:** **RM 0.50** (50 sen) sahaja per pesanan!
 - **Ambil Sendiri (Self-Pickup):** **PERCUMA (RM 0.00)** antara 6:30 PM hingga 9:00 PM.
-
----
-
-## 🍽️ Tentang Produk Kami
-
-Putu Piring Uni membawakan hidangan tradisi putu piring yang dikukus segar:
-* **Tepung Beras Asli Gebu** — Dikukus lembut mengikut pesanan.
-* **Inti Gula Melaka Asli** — Manis beraroma dan cair di mulut.
-* **Kelapa Parut Segar** — Ditabur dengan sedikit garam halus untuk rasa lemak manis yang seimbang.
 
 ---
 
