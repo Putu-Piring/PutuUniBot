@@ -27,11 +27,11 @@ Putu Piring kami dijual hanya dalam **satu perisa original**:
 * **Inti Gula Merah & Kelapa Parut Putih** — Manis beraroma dengan kelapa parut putih segar.
 * **Pembungkusan Tradisi** — Dibalut kemas dengan **kertas minyak**.
 
-### 📜 Pilihan Pakej
-| Pakej | Butiran | Kuantiti | Harga |
-| :--- | :--- | :---: | :---: |
-| **Pakej 1** | Satu Set Putu Piring Asli | 2 biji | **RM 2.00** |
-| **Pakej 2** | Satu Set Putu Piring + Kopi-O | 2 biji + Kopi-O | **RM 2.50** |
+### 📜 Pilihan Pakej & Status Ketersediaan
+| Pakej | Butiran | Kuantiti | Harga | Status |
+| :--- | :--- | :---: | :---: | :---: |
+| **Pakej 1** | Satu Set Putu Piring Asli | 2 biji | **RM 2.00** | 🟢 **Tersedia (Aktif)** |
+| **Pakej 2** | Satu Set Putu Piring + Kopi-O | 2 biji + Kopi-O | **RM 2.50** | 🟡 **Akan Datang (Belum Dibuka)** |
 
 ---
 

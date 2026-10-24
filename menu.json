@@ -40,7 +40,8 @@
       "description": "Satu set (sebungkus) mengandungi 2 biji putu piring gebu berinti Gula Merah dan Kelapa Parut Putih, dibalut dengan kertas minyak.",
       "price": 2.00,
       "priceFormatted": "RM 2.00",
-      "status": "available"
+      "status": "available",
+      "statusNotice": "Sedia untuk pesanan"
     },
     {
       "id": "pakej-2",
@@ -49,7 +50,8 @@
       "description": "Satu set (sebungkus) mengandungi 2 biji putu piring berinti Gula Merah dan Kelapa Parut Putih bersama secawan Kopi-O.",
       "price": 2.50,
       "priceFormatted": "RM 2.50",
-      "status": "available"
+      "status": "unavailable",
+      "statusNotice": "Belum dibuka / Belum tersedia buat masa ini (Akan Datang)"
     }
   ],
   "paymentMethods": [
