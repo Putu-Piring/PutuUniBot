@@ -94,8 +94,10 @@
   "stockManagement": {
     "dailyNormalCapacity": 50,
     "unit": "set",
+    "isQuotaConfidential": true,
     "cutoffNotice": "Waktu tutup pesanan harian akan dimaklumkan oleh admin/moderator sekiranya stok harian habis lebih awal.",
-    "exceededPolicy": "Sekiranya jumlah pesanan harian melebihi 50 set, bot/ejen perlu menyemak ketersediaan bersama admin terlebih dahulu sebelum menerima pesanan seterusnya. Maklumkan kepada pelanggan bahawa pihak kedai perlu mengesahkan baki stok terlebih dahulu."
+    "exceededPolicy": "Sekiranya jumlah pesanan harian mencapai atau melebihi had dalaman, bot JANGAN menyebut angka 50 atau perkataan kuota kepada pelanggan. Cuma beritahu bahawa stok kemungkinan sudah habis dan kedai perlu membuat semakan ketersediaan stok bersama pihak dapur terlebih dahulu.",
+    "customerNotice": "Terima kasih atas tempahan anda! Memandangkan permintaan hari ini sangat tinggi dan stok kemungkinan sudah habis, kami perlu membuat semakan ketersediaan stok bersama pihak dapur/kedai terlebih dahulu sebelum mengesahkan pesanan anda. Mohon tunggu sebentar ya!"
   },
   "contacts": [
     {

@@ -7,7 +7,7 @@ Perniagaan ini merupakan projek keusahawanan sebenar yang diusahakan oleh **maha
 > **Rujukan Kursus:** [`D:\RepoTools\GitHub\uitm-course\ENT300`](file:///D:/RepoTools/GitHub/uitm-course/ENT300)  
 > **Bot Telegram Rasmi:** [@putu_uni_bot](https://t.me/putu_uni_bot)  
 > **Model Operasi:** Pra-pesanan Sahaja (Pre-order Only)  
-> **Kapasiti Harian:** 50 set sehari (semakan stok diperlukan jika melebihi had)  
+> **Kapasiti Harian:** Terhad (Pra-pesanan awal amat digalakkan)  
 
 ---
 
