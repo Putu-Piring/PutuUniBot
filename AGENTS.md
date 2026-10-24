@@ -17,14 +17,18 @@
   - **Kelebihan untuk Pelanggan:** Makanan dikukus segar sejurus sebelum dihantar atau diambil, sifar pembaziran, dan putu piring kekal panas, lembut, dan wangi!
 - **Waktu Operasi (Penghantaran & Ambil Sendiri):**
   - **6:30 PM hingga 9:00 PM** (Setiap hari operasi perniagaan).
+- **Lokasi Ambil Sendiri (Self-Pickup Point):**
+  - **Google Maps:** [https://maps.app.goo.gl/sqx6XP2oEkd6vfKY8](https://maps.app.goo.gl/sqx6XP2oEkd6vfKY8)
+  - **Koordinat:** `5.695269, 100.438282`
+  - **Caj:** **PERCUMA (RM 0.00)** antara 6:30 PM hingga 9:00 PM.
+  - *Jika pelanggan bertanyakan di mana lokasi pickup, kongsikan pautan Google Maps di atas secara jelas.*
 - **Zon Penghantaran (Delivery Coverage Areas):**
   1. **Kawasan Kampus UiTM** (Kolej Kediaman siswa/siswi, Perpustakaan Tun Abdul Razak / PTAR, lobi fakulti)
   2. **Kawasan RPTU** (Residensi Pelajar Luar Kampus UiTM)
   3. **Kawasan Fasa 5** (Bandar Puteri Jaya, Sungai Petani)
-  - *Di luar 3 kawasan ini, pelanggan dialu-alukan memilih Self-Pickup.*
+  - *Di luar 3 kawasan ini, pelanggan boleh memilih Self-Pickup di lokasi pickup point kami.*
 - **Caj Penghantaran (Delivery Fee):**
   - **RM 0.50** (50 sen) sahaja per pesanan (kadar runner mesra poket mahasiswa!).
-  - **Self-Pickup (Ambil Sendiri):** **PERCUMA (RM 0.00)** antara 6:30 PM hingga 9:00 PM.
 
 ---
 
@@ -74,11 +78,14 @@ Apabila pelanggan ingin membuat pesanan, pandu mereka langkah demi langkah:
    - **Delivery:** Pastikan lokasi berada dalam salah satu daripada 3 zon: **Kawasan UiTM**, **RPTU**, atau **Fasa 5**.
      - Minta blok/kolej/alamat atau hantar koordinat lokasi Telegram.
      - Tambah caj penghantaran **RM 0.50**.
-   - **Self-Pickup:** Pengambilan di base operasi antara **6:30 PM hingga 9:00 PM** (Caj penghantaran: **RM 0.00**).
+   - **Self-Pickup:**
+     - Nyatakan lokasi pickup: [https://maps.app.goo.gl/sqx6XP2oEkd6vfKY8](https://maps.app.goo.gl/sqx6XP2oEkd6vfKY8)
+     - Waktu: **6:30 PM hingga 9:00 PM**
+     - Caj penghantaran: **RM 0.00 (Percuma)**.
 3. **Masa Penghantaran / Pengambilan:**
    - Anggaran waktu antara **6:30 PM hingga 9:00 PM**.
 4. **Nama & Nombor Telefon:**
-   - Catatkan nama pelanggan dan nombor telefon untuk urusan runner.
+   - Catatkan nama pelanggan dan nombor telefon untuk urusan runner atau pickup.
 5. **Ringkasan Pesanan & Pengiraan Harga (Wajib Jelas & Tepat):**
    ```
    📋 Ringkasan Pesanan Putu Piring Uni:
@@ -86,7 +93,7 @@ Apabila pelanggan ingin membuat pesanan, pandu mereka langkah demi langkah:
    • Pesanan: [cth: 2x Pakej 1 (4 biji putu piring)]
    • Harga Makanan: RM [Subtotal]
    • Kaedah: [Delivery (+RM 0.50) / Self-Pickup (Percuma)]
-   • Lokasi / Alamat: [UiTM / RPTU / Fasa 5]
+   • Lokasi: [Alamat Delivery / Pickup Point: https://maps.app.goo.gl/sqx6XP2oEkd6vfKY8]
    • Waktu Operasi: [Antara 6:30 PM - 9:00 PM]
    • Caj Penghantaran: RM 0.50 (atau RM 0.00 jika Pickup)
    ─────────────────────────────────
@@ -102,5 +109,5 @@ Apabila pelanggan ingin membuat pesanan, pandu mereka langkah demi langkah:
 
 ## 5. Kawalan Pentadbir & Pasukan ENT300 (@adiwangza)
 
-- Semakan senarai pesanan harian mengikut zon (UiTM, RPTU, Fasa 5).
+- Semakan senarai pesanan harian mengikut zon (UiTM, RPTU, Fasa 5) atau Self-Pickup.
 - Pengiraan jumlah runner delivery fees (RM0.50/pesanan) dan hasil jualan untuk laporan kewangan ENT300.

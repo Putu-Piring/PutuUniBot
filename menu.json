@@ -10,6 +10,13 @@
     "filling": "Gula Merah dan Kelapa Parut Putih",
     "packaging": "Dibalut kemas dengan kertas minyak"
   },
+  "selfPickup": {
+    "fee": 0.00,
+    "feeFormatted": "Percuma (RM 0.00)",
+    "hours": "6:30 PM - 9:00 PM",
+    "mapsUrl": "https://maps.app.goo.gl/sqx6XP2oEkd6vfKY8",
+    "coordinates": "5.695269, 100.438282"
+  },
   "delivery": {
     "fee": 0.50,
     "feeFormatted": "RM 0.50",
