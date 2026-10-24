@@ -2,8 +2,20 @@
   "storeName": "Putu Piring Uni",
   "organization": "UiTM Diploma Students - ENT300 Entrepreneurship Project",
   "courseRef": "D:\\RepoTools\\GitHub\\uitm-course\\ENT300",
-  "operatingHours": "5:00 PM - 9:30 PM (Petang / Malam)",
-  "coverageArea": "Kampus UiTM (Kolej Kediaman, PTAR) & Sekitar Bandar Puteri Jaya (Fasa 5), Sungai Petani",
+  "operationalModel": "Pre-order only (Pra-pesanan sahaja)",
+  "operatingHours": "6:30 PM - 9:00 PM (Waktu penghantaran & self-pickup)",
+  "orderScheduleNotice": "Kami beroperasi secara pra-pesanan sahaja kerana komitmen jadual kuliah, tugasan, projek dan penilaian pada waktu siang.",
+  "delivery": {
+    "fee": 0.50,
+    "feeFormatted": "RM 0.50",
+    "zones": [
+      "Kawasan UiTM (Kolej Kediaman, PTAR, Lobi Fakulti)",
+      "RPTU (Residensi Pelajar Luar Kampus)",
+      "Kawasan Fasa 5 (Bandar Puteri Jaya)"
+    ],
+    "selfPickupFee": 0.00,
+    "pickupHours": "6:30 PM - 9:00 PM"
+  },
   "currency": "MYR",
   "items": [
     {
