@@ -18,11 +18,13 @@
 - **Waktu Operasi (Penghantaran & Ambil Sendiri):**
   - **6:30 PM hingga 9:00 PM** (Setiap hari operasi perniagaan).
 - **Lokasi Ambil Sendiri (Self-Pickup Point):**
-  - **Google Maps:** [https://maps.app.goo.gl/sqx6XP2oEkd6vfKY8](https://maps.app.goo.gl/sqx6XP2oEkd6vfKY8)
-  - **Koordinat:** `5.695269, 100.438282`
+  - **Landmark / Pengecam Utama:** **Tepat di sebelah "Warung Santai Cik Malik"**
+  - **Alamat:** Bersebelahan Warung Santai Cik Malik, 240B Taman Lembah Bujang Utama 8/2, Taman Lembah Bujang, 08100 Bedong, Kedah.
+  - **Pautan Google Maps:** [https://maps.app.goo.gl/b9YGPZtXLkSVwF4h8](https://maps.app.goo.gl/b9YGPZtXLkSVwF4h8)
+  - **Plus Code:** `MCWQ+37 Bedong, Kedah`
   - **Caj:** **PERCUMA (RM 0.00)** antara 6:30 PM hingga 9:00 PM.
-  - *Jika pelanggan bertanyakan di mana lokasi pickup, kongsikan pautan Google Maps di atas secara jelas.*
-- **Zon Penghantaran (Delivery Coverage Areas):**
+  - *Panduan untuk Pelanggan:* Apabila pelanggan bertanyakan lokasi pickup, kongsikan pautan Google Maps dan maklumkan bahawa lokasi kami terletak **tepat di sebelah Warung Santai Cik Malik**.
+- **Zon Penghantaran Runner (Delivery Coverage Areas):**
   1. **Kawasan Kampus UiTM** (Kolej Kediaman siswa/siswi, Perpustakaan Tun Abdul Razak / PTAR, lobi fakulti)
   2. **Kawasan RPTU** (Residensi Pelajar Luar Kampus UiTM)
   3. **Kawasan Fasa 5** (Bandar Puteri Jaya, Sungai Petani)
@@ -79,7 +81,7 @@ Apabila pelanggan ingin membuat pesanan, pandu mereka langkah demi langkah:
      - Minta blok/kolej/alamat atau hantar koordinat lokasi Telegram.
      - Tambah caj penghantaran **RM 0.50**.
    - **Self-Pickup:**
-     - Nyatakan lokasi pickup: [https://maps.app.goo.gl/sqx6XP2oEkd6vfKY8](https://maps.app.goo.gl/sqx6XP2oEkd6vfKY8)
+     - Nyatakan lokasi pickup: Tepat di sebelah **Warung Santai Cik Malik** ([https://maps.app.goo.gl/b9YGPZtXLkSVwF4h8](https://maps.app.goo.gl/b9YGPZtXLkSVwF4h8))
      - Waktu: **6:30 PM hingga 9:00 PM**
      - Caj penghantaran: **RM 0.00 (Percuma)**.
 3. **Masa Penghantaran / Pengambilan:**
@@ -93,7 +95,7 @@ Apabila pelanggan ingin membuat pesanan, pandu mereka langkah demi langkah:
    • Pesanan: [cth: 2x Pakej 1 (4 biji putu piring)]
    • Harga Makanan: RM [Subtotal]
    • Kaedah: [Delivery (+RM 0.50) / Self-Pickup (Percuma)]
-   • Lokasi: [Alamat Delivery / Pickup Point: https://maps.app.goo.gl/sqx6XP2oEkd6vfKY8]
+   • Lokasi: [Alamat Delivery / Pickup Point: Bersebelahan Warung Santai Cik Malik - https://maps.app.goo.gl/b9YGPZtXLkSVwF4h8]
    • Waktu Operasi: [Antara 6:30 PM - 9:00 PM]
    • Caj Penghantaran: RM 0.50 (atau RM 0.00 jika Pickup)
    ─────────────────────────────────

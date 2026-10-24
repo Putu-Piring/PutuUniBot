@@ -14,8 +14,11 @@
     "fee": 0.00,
     "feeFormatted": "Percuma (RM 0.00)",
     "hours": "6:30 PM - 9:00 PM",
-    "mapsUrl": "https://maps.app.goo.gl/sqx6XP2oEkd6vfKY8",
-    "coordinates": "5.695269, 100.438282"
+    "mapsUrl": "https://maps.app.goo.gl/b9YGPZtXLkSVwF4h8",
+    "landmark": "Tepat di sebelah Warung Santai Cik Malik",
+    "address": "Bersebelahan Warung Santai Cik Malik, 240B Taman Lembah Bujang Utama 8/2, Taman Lembah Bujang, 08100 Bedong, Kedah",
+    "coordinates": "5.695203, 100.438322",
+    "plusCode": "MCWQ+37 Bedong, Kedah"
   },
   "delivery": {
     "fee": 0.50,

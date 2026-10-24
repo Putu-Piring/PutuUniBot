@@ -8,7 +8,7 @@ Perniagaan ini merupakan projek keusahawanan sebenar yang diusahakan oleh **maha
 > **Bot Telegram Rasmi:** [@putu_uni_bot](https://t.me/putu_uni_bot)  
 > **Model Operasi:** Pra-pesanan Sahaja (Pre-order Only)  
 > **Waktu Operasi (Delivery & Pickup):** 6:30 PM – 9:00 PM  
-> **Lokasi Self-Pickup:** [Pautan Google Maps](https://maps.app.goo.gl/sqx6XP2oEkd6vfKY8) (`5.695269, 100.438282`)  
+> **Lokasi Self-Pickup:** Tepat di sebelah **Warung Santai Cik Malik** ([Pautan Google Maps](https://maps.app.goo.gl/b9YGPZtXLkSVwF4h8))  
 
 ---
 
@@ -45,7 +45,9 @@ Kami menyediakan khidmat penghantaran ke **3 kawasan utama**:
 - **Caj Penghantaran:** **RM 0.50** (50 sen) sahaja per pesanan!
 
 ### 2. Ambil Sendiri (Self-Pickup)
-- **Lokasi Pickup Point:** [https://maps.app.goo.gl/sqx6XP2oEkd6vfKY8](https://maps.app.goo.gl/sqx6XP2oEkd6vfKY8) (Koordinat: `5.695269, 100.438282`)
+- **Landmark:** Tepat di sebelah **Warung Santai Cik Malik**
+- **Alamat:** 240B Taman Lembah Bujang Utama 8/2, Taman Lembah Bujang, 08100 Bedong, Kedah
+- **Pautan Google Maps:** [https://maps.app.goo.gl/b9YGPZtXLkSVwF4h8](https://maps.app.goo.gl/b9YGPZtXLkSVwF4h8) (Plus Code: `MCWQ+37 Bedong, Kedah`)
 - **Waktu Pickup:** 6:30 PM hingga 9:00 PM
 - **Caj:** **PERCUMA (RM 0.00)**
 
