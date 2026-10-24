@@ -8,6 +8,7 @@ Perniagaan ini merupakan projek keusahawanan sebenar yang diusahakan oleh **maha
 > **Bot Telegram Rasmi:** [@putu_uni_bot](https://t.me/putu_uni_bot)  
 > **Model Operasi:** Pra-pesanan Sahaja (Pre-order Only)  
 > **Kapasiti Harian:** Terhad (Pra-pesanan awal amat digalakkan)  
+> **Sistem Pangkalan Data:** SQLite (`orders.db` melalui `db.py`)  
 
 ---
 
@@ -23,7 +24,9 @@ Perniagaan ini merupakan projek keusahawanan sebenar yang diusahakan oleh **maha
 | **Jumaat** | 🔴 **Tutup** | - | *Cuti / Tiada Operasi* | *Cuti / Tiada Operasi* |
 | **Sabtu** | 🔴 **Tutup** | - | *Cuti / Tiada Operasi* | *Cuti / Tiada Operasi* |
 
-*Nota:* Waktu tutup pesanan harian juga boleh dimaklumkan lebih awal oleh admin sekiranya stok harian habis.
+*Nota Penting:*
+- **Pembatalan / Pindaan Pesanan:** Hanya dibenarkan **sebelum waktu cut-off** (9:30 AM Ahad / 5:00 PM hari biasa).
+- **Notis Stok Habis:** Waktu tutup pesanan harian juga boleh dimaklumkan lebih awal sekiranya stok harian habis.
 
 ---
 
@@ -32,6 +35,7 @@ Perniagaan ini merupakan projek keusahawanan sebenar yang diusahakan oleh **maha
 Putu Piring kami dijual hanya dalam **satu perisa original**:
 * **Inti Gula Merah & Kelapa Parut Putih** — Manis beraroma dengan kelapa parut putih segar.
 * **Pembungkusan Tradisi** — Dibalut kemas dengan **kertas minyak**.
+* **Nota Kesegaran:** Enak dimakan segera semasa panas. Jika disimpan, masukkan ke dalam peti sejuk dan kukus 2 minit (kelapa parut segar cepat basi jika dibiar terdedah).
 
 ### 📜 Pilihan Pakej & Status Ketersediaan
 | Pakej | Butiran | Kuantiti | Harga | Status |
@@ -45,6 +49,7 @@ Putu Piring kami dijual hanya dalam **satu perisa original**:
 
 ### 1. Penghantaran Runner (Delivery - Caj RM0.50)
 - **Zon Liputan:** Kawasan Kampus UiTM, Kawasan RPTU, dan Kawasan Fasa 5 (Lembah Bujang).
+- **Titik Serahan:** Pelanggan perlu menunggu di tempat yang ditetapkan runner atau dipersetujui bersama (lobi blok kolej, guard house, kafe kolej).
 - **Ahad:** 4:00 PM – 6:00 PM
 - **Isnin, Selasa, Khamis:** 6:30 PM – 9:00 PM
 
@@ -64,9 +69,20 @@ Putu Piring kami dijual hanya dalam **satu perisa original**:
 
 ---
 
+## 🗄️ Pangkalan Data Pesanan SQLite (`orders.db`)
+Sistem dilengkapi skrip CLI `db.py` untuk operasi harian dan pelaporan ENT300:
+- **Inisialisasi Schema:** `python db.py init`
+- **Tambah Pesanan:** `python db.py add --customer "Ali" --phone "0123456789" --qty 2 --type delivery --zone "UiTM" --address "Kolej Dahlia"`
+- **Semak Had Kuota Harian:** `python db.py count`
+- **Senarai Pesanan:** `python db.py list --date 2026-10-25`
+- **Laporan Jualan & Runner (ENT300):** `python db.py summary --date 2026-10-25`
+
+---
+
 ## 📁 Struktur Projek
 
 - [`AGENTS.md`](AGENTS.md) — Panduan arahan dan persona keusahawanan siswa untuk ejen AI Telegram.
+- [`db.py`](db.py) — Pengurusan pangkalan data SQLite pesanan dan pelaporan ENT300.
+- [`orders.db`](orders.db) — Pangkalan data SQLite pesanan pelanggan.
 - [`menu.json`](menu.json) — Senarai menu, pakej, jadual operasi, zon penghantaran, lokasi pickup, dan PIC.
 - [`payment_info.md`](payment_info.md) — Maklumat pembayaran dan senarai PIC.
-- `orders/` — Rekod pesanan pelanggan bagi tujuan operasi dan dokumentasi laporan ENT300.
