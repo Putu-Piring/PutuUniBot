@@ -4,7 +4,66 @@
   "courseRef": "D:\\RepoTools\\GitHub\\uitm-course\\ENT300",
   "operationalModel": "Pre-order only (Pra-pesanan sahaja)",
   "operatingHours": "6:30 PM - 9:00 PM (Waktu penghantaran & self-pickup)",
-  "orderScheduleNotice": "Kami beroperasi secara pra-pesanan sahaja kerana komitmen jadual kuliah, tugasan, projek dan penilaian pada waktu siang.",
+  "operatingSchedule": {
+    "Ahad": {
+      "isOpen": true,
+      "preorderCutoff": "9:30 AM (pada hari yang sama)",
+      "fulfillmentMode": "Self-pickup sahaja di kawasan kabin UiTM (tiada delivery biasa)",
+      "pickupLocation": "Kawasan Kabin UiTM"
+    },
+    "Isnin": {
+      "isOpen": true,
+      "preorderCutoff": "5:00 PM (pada hari yang sama)",
+      "fulfillmentMode": "Delivery (UiTM, RPTU, Fasa 5) & Self-pickup (Bersebelahan Warung Santai Cik Malik)",
+      "operatingWindow": "6:30 PM - 9:00 PM"
+    },
+    "Selasa": {
+      "isOpen": true,
+      "preorderCutoff": "5:00 PM (pada hari yang sama)",
+      "fulfillmentMode": "Delivery (UiTM, RPTU, Fasa 5) & Self-pickup (Bersebelahan Warung Santai Cik Malik)",
+      "operatingWindow": "6:30 PM - 9:00 PM"
+    },
+    "Rabu": {
+      "isOpen": false,
+      "status": "Tutup"
+    },
+    "Khamis": {
+      "isOpen": true,
+      "preorderCutoff": "5:00 PM (pada hari yang sama)",
+      "fulfillmentMode": "Delivery (UiTM, RPTU, Fasa 5) & Self-pickup (Bersebelahan Warung Santai Cik Malik)",
+      "operatingWindow": "6:30 PM - 9:00 PM"
+    },
+    "Jumaat": {
+      "isOpen": false,
+      "status": "Tutup"
+    },
+    "Sabtu": {
+      "isOpen": false,
+      "status": "Tutup"
+    }
+  },
+  "stockManagement": {
+    "dailyNormalCapacity": 50,
+    "unit": "set",
+    "cutoffNotice": "Waktu tutup pesanan harian akan dimaklumkan oleh admin/moderator sekiranya stok harian habis lebih awal.",
+    "exceededPolicy": "Sekiranya jumlah pesanan harian melebihi 50 set, bot/ejen perlu menyemak ketersediaan bersama admin terlebih dahulu sebelum menerima pesanan seterusnya. Maklumkan kepada pelanggan bahawa pihak kedai perlu mengesahkan baki stok terlebih dahulu."
+  },
+  "contacts": [
+    {
+      "role": "Telegram AI Bot",
+      "handle": "@putu_uni_bot"
+    },
+    {
+      "name": "Aiman",
+      "role": "PIC / Runner",
+      "phone": "011-39163313"
+    },
+    {
+      "name": "Nasrul",
+      "role": "PIC / Pengurusan",
+      "phone": "019-4464970"
+    }
+  ],
   "productSpecs": {
     "flavor": "Original (Satu perisa sahaja)",
     "filling": "Gula Merah dan Kelapa Parut Putih",
@@ -13,12 +72,18 @@
   "selfPickup": {
     "fee": 0.00,
     "feeFormatted": "Percuma (RM 0.00)",
-    "hours": "6:30 PM - 9:00 PM",
-    "mapsUrl": "https://maps.app.goo.gl/b9YGPZtXLkSVwF4h8",
-    "landmark": "Tepat di sebelah Warung Santai Cik Malik",
-    "address": "Bersebelahan Warung Santai Cik Malik, 240B Taman Lembah Bujang Utama 8/2, Taman Lembah Bujang, 08100 Bedong, Kedah",
-    "coordinates": "5.695203, 100.438322",
-    "plusCode": "MCWQ+37 Bedong, Kedah"
+    "regularLocation": {
+      "name": "Bersebelahan Warung Santai Cik Malik",
+      "address": "240B Taman Lembah Bujang Utama 8/2, Taman Lembah Bujang, 08100 Bedong, Kedah",
+      "mapsUrl": "https://maps.app.goo.gl/b9YGPZtXLkSVwF4h8",
+      "coordinates": "5.695203, 100.438322",
+      "plusCode": "MCWQ+37 Bedong, Kedah",
+      "hours": "6:30 PM - 9:00 PM (Isnin, Selasa, Khamis)"
+    },
+    "sundayLocation": {
+      "name": "Kawasan Kabin UiTM",
+      "hours": "Ahad sahaja (Pre-order tutup 9:30 AM)"
+    }
   },
   "delivery": {
     "fee": 0.50,
@@ -29,7 +94,7 @@
       "Kawasan Fasa 5 (Bandar Puteri Jaya)"
     ],
     "selfPickupFee": 0.00,
-    "pickupHours": "6:30 PM - 9:00 PM"
+    "operatingWindow": "6:30 PM - 9:00 PM (Isnin, Selasa, Khamis)"
   },
   "currency": "MYR",
   "items": [

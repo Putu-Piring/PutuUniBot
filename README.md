@@ -7,17 +7,23 @@ Perniagaan ini merupakan projek keusahawanan sebenar yang diusahakan oleh **maha
 > **Rujukan Kursus:** [`D:\RepoTools\GitHub\uitm-course\ENT300`](file:///D:/RepoTools/GitHub/uitm-course/ENT300)  
 > **Bot Telegram Rasmi:** [@putu_uni_bot](https://t.me/putu_uni_bot)  
 > **Model Operasi:** Pra-pesanan Sahaja (Pre-order Only)  
-> **Waktu Operasi (Delivery & Pickup):** 6:30 PM – 9:00 PM  
-> **Lokasi Self-Pickup:** Tepat di sebelah **Warung Santai Cik Malik** ([Pautan Google Maps](https://maps.app.goo.gl/b9YGPZtXLkSVwF4h8))  
+> **Kapasiti Harian:** 50 set sehari (semakan stok diperlukan jika melebihi had)  
 
 ---
 
-## 🕒 Model Perniagaan: Pra-Pesanan Sahaja (Pre-Order Only)
+## 📅 Jadual Hari Operasi & Waktu Tutup Pesanan
 
-Kami **hanya menerima pra-pesanan (pre-order)** kerana kami mempunyai jadual yang padat dengan kuliah, projek, tugasan, dan penilaian pada waktu siang.
+| Hari | Status | Tutup Pre-order | Kaedah Operasi & Lokasi |
+| :--- | :---: | :---: | :--- |
+| **Ahad** | 🟢 **Buka** | **9:30 AM** (hari sama) | **Self-Pickup Sahaja di Kawasan Kabin UiTM** *(tiada delivery)* |
+| **Isnin** | 🟢 **Buka** | **5:00 PM** (hari sama) | Delivery (UiTM, RPTU, Fasa 5) & Pickup (Bedong) 6:30 PM – 9:00 PM |
+| **Selasa** | 🟢 **Buka** | **5:00 PM** (hari sama) | Delivery (UiTM, RPTU, Fasa 5) & Pickup (Bedong) 6:30 PM – 9:00 PM |
+| **Rabu** | 🔴 **Tutup** | - | *Cuti / Tiada Operasi* |
+| **Khamis** | 🟢 **Buka** | **5:00 PM** (hari sama) | Delivery (UiTM, RPTU, Fasa 5) & Pickup (Bedong) 6:30 PM – 9:00 PM |
+| **Jumaat** | 🔴 **Tutup** | - | *Cuti / Tiada Operasi* |
+| **Sabtu** | 🔴 **Tutup** | - | *Cuti / Tiada Operasi* |
 
-- **Waktu Operasi Runner / Ambil Sendiri:** 6:30 PM hingga 9:00 PM.
-- **Kelebihan:** Putu piring sentiasa dikukus segar sejurus sebelum dihantar atau diambil, panas, lembut dan wangi tanpa pembaziran.
+*Nota:* Waktu tutup pesanan harian juga boleh dimaklumkan lebih awal oleh admin sekiranya stok harian habis.
 
 ---
 
@@ -37,25 +43,29 @@ Putu Piring kami dijual hanya dalam **satu perisa original**:
 
 ## 🛵 Kaedah Penerimaan: Delivery & Self-Pickup
 
-### 1. Penghantaran Runner (Delivery)
-Kami menyediakan khidmat penghantaran ke **3 kawasan utama**:
-1. **Kawasan Kampus UiTM** (Kolej Kediaman, PTAR, Dewan Kuliah / Lobi Fakulti)
-2. **Kawasan RPTU** (Residensi Pelajar Luar Kampus)
-3. **Kawasan Fasa 5** (Bandar Puteri Jaya)
+### 1. Penghantaran Runner (Isnin, Selasa, Khamis: 6:30 PM – 9:00 PM)
+- **Zon Liputan:** Kawasan Kampus UiTM, Kawasan RPTU, dan Kawasan Fasa 5 (Bandar Puteri Jaya).
 - **Caj Penghantaran:** **RM 0.50** (50 sen) sahaja per pesanan!
 
-### 2. Ambil Sendiri (Self-Pickup)
-- **Landmark:** Tepat di sebelah **Warung Santai Cik Malik**
-- **Alamat:** 240B Taman Lembah Bujang Utama 8/2, Taman Lembah Bujang, 08100 Bedong, Kedah
-- **Pautan Google Maps:** [https://maps.app.goo.gl/b9YGPZtXLkSVwF4h8](https://maps.app.goo.gl/b9YGPZtXLkSVwF4h8) (Plus Code: `MCWQ+37 Bedong, Kedah`)
-- **Waktu Pickup:** 6:30 PM hingga 9:00 PM
-- **Caj:** **PERCUMA (RM 0.00)**
+### 2. Ambil Sendiri (Self-Pickup - Percuma)
+- **Isnin, Selasa, Khamis (6:30 PM – 9:00 PM):**
+  - **Landmark:** Tepat di sebelah **Warung Santai Cik Malik**
+  - **Alamat:** 240B Taman Lembah Bujang Utama 8/2, Taman Lembah Bujang, 08100 Bedong, Kedah ([Google Maps](https://maps.app.goo.gl/b9YGPZtXLkSVwF4h8))
+- **Ahad:**
+  - **Lokasi:** **Kawasan Kabin UiTM** (Pre-order tutup 9:30 AM).
+
+---
+
+## 📞 Pegawai Perhubungan / PIC
+- **Bot Telegram:** [@putu_uni_bot](https://t.me/putu_uni_bot)
+- **Aiman (Runner / PIC):** `011-39163313`
+- **Nasrul (Pengurusan / PIC):** `019-4464970`
 
 ---
 
 ## 📁 Struktur Projek
 
 - [`AGENTS.md`](AGENTS.md) — Panduan arahan dan persona keusahawanan siswa untuk ejen AI Telegram.
-- [`menu.json`](menu.json) — Senarai menu, pakej, zon penghantaran, lokasi pickup, dan caj.
-- [`payment_info.md`](payment_info.md) — Maklumat pembayaran (DuitNow QR / Bank / Tunai).
+- [`menu.json`](menu.json) — Senarai menu, pakej, jadual operasi, zon penghantaran, lokasi pickup, dan PIC.
+- [`payment_info.md`](payment_info.md) — Maklumat pembayaran dan senarai PIC.
 - `orders/` — Rekod pesanan pelanggan bagi tujuan operasi dan dokumentasi laporan ENT300.
