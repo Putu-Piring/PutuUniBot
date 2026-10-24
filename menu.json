@@ -1,0 +1,29 @@
+{
+  "storeName": "Putu Piring Uni",
+  "operatingHours": "2:30 PM - 7:00 PM (Selasa - Ahad)",
+  "location": "Gerai Putu Piring Uni (Pickup / Delivery kawasan sekitar)",
+  "currency": "MYR",
+  "items": [
+    {
+      "id": "putu-original",
+      "name": "Putu Piring Asli Gula Melaka",
+      "description": "4 keping putu piring gebu berinti gula melaka Melaka asli bersama kelapa parut segar bergaram halus.",
+      "pricePerSet": 5.00,
+      "piecesPerSet": 4,
+      "status": "available"
+    },
+    {
+      "id": "putu-coklat",
+      "name": "Putu Piring Coklat Special",
+      "description": "4 keping putu piring berinti coklat berkrim cair.",
+      "pricePerSet": 6.00,
+      "piecesPerSet": 4,
+      "status": "available"
+    }
+  ],
+  "paymentMethods": [
+    "DuitNow QR",
+    "Online Bank Transfer",
+    "Cash on Pickup"
+  ]
+}
