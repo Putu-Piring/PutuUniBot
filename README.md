@@ -13,15 +13,15 @@ Perniagaan ini merupakan projek keusahawanan sebenar yang diusahakan oleh **maha
 
 ## 📅 Jadual Hari Operasi & Waktu Tutup Pesanan
 
-| Hari | Status | Tutup Pre-order | Kaedah Operasi & Lokasi |
-| :--- | :---: | :---: | :--- |
-| **Ahad** | 🟢 **Buka** | **9:30 AM** (hari sama) | **Self-Pickup Sahaja di Kawasan Kabin UiTM** *(tiada delivery)* |
-| **Isnin** | 🟢 **Buka** | **5:00 PM** (hari sama) | Delivery (UiTM, RPTU, Fasa 5) & Pickup (Bedong) 6:30 PM – 9:00 PM |
-| **Selasa** | 🟢 **Buka** | **5:00 PM** (hari sama) | Delivery (UiTM, RPTU, Fasa 5) & Pickup (Bedong) 6:30 PM – 9:00 PM |
-| **Rabu** | 🔴 **Tutup** | - | *Cuti / Tiada Operasi* |
-| **Khamis** | 🟢 **Buka** | **5:00 PM** (hari sama) | Delivery (UiTM, RPTU, Fasa 5) & Pickup (Bedong) 6:30 PM – 9:00 PM |
-| **Jumaat** | 🔴 **Tutup** | - | *Cuti / Tiada Operasi* |
-| **Sabtu** | 🔴 **Tutup** | - | *Cuti / Tiada Operasi* |
+| Hari | Status | Tutup Pre-order | Waktu Self-Pickup | Waktu Delivery (Runner) |
+| :--- | :---: | :---: | :--- | :--- |
+| **Ahad** | 🟢 **Buka** | **9:30 AM** (hari sama) | **4:00 PM – 5:00 PM** *(Kawasan Kabin UiTM)* | **4:00 PM – 6:00 PM** *(Caj RM0.50)* |
+| **Isnin** | 🟢 **Buka** | **5:00 PM** (hari sama) | **6:30 PM – 9:00 PM** *(Sebelah Warung Cik Malik)* | **6:30 PM – 9:00 PM** *(Caj RM0.50)* |
+| **Selasa** | 🟢 **Buka** | **5:00 PM** (hari sama) | **6:30 PM – 9:00 PM** *(Sebelah Warung Cik Malik)* | **6:30 PM – 9:00 PM** *(Caj RM0.50)* |
+| **Rabu** | 🔴 **Tutup** | - | *Cuti / Tiada Operasi* | *Cuti / Tiada Operasi* |
+| **Khamis** | 🟢 **Buka** | **5:00 PM** (hari sama) | **6:30 PM – 9:00 PM** *(Sebelah Warung Cik Malik)* | **6:30 PM – 9:00 PM** *(Caj RM0.50)* |
+| **Jumaat** | 🔴 **Tutup** | - | *Cuti / Tiada Operasi* | *Cuti / Tiada Operasi* |
+| **Sabtu** | 🔴 **Tutup** | - | *Cuti / Tiada Operasi* | *Cuti / Tiada Operasi* |
 
 *Nota:* Waktu tutup pesanan harian juga boleh dimaklumkan lebih awal oleh admin sekiranya stok harian habis.
 
@@ -43,16 +43,17 @@ Putu Piring kami dijual hanya dalam **satu perisa original**:
 
 ## 🛵 Kaedah Penerimaan: Delivery & Self-Pickup
 
-### 1. Penghantaran Runner (Isnin, Selasa, Khamis: 6:30 PM – 9:00 PM)
+### 1. Penghantaran Runner (Delivery - Caj RM0.50)
 - **Zon Liputan:** Kawasan Kampus UiTM, Kawasan RPTU, dan Kawasan Fasa 5 (Bandar Puteri Jaya).
-- **Caj Penghantaran:** **RM 0.50** (50 sen) sahaja per pesanan!
+- **Ahad:** 4:00 PM – 6:00 PM
+- **Isnin, Selasa, Khamis:** 6:30 PM – 9:00 PM
 
 ### 2. Ambil Sendiri (Self-Pickup - Percuma)
+- **Ahad (4:00 PM – 5:00 PM):**
+  - **Lokasi:** **Kawasan Kabin UiTM** (Pre-order tutup 9:30 AM).
 - **Isnin, Selasa, Khamis (6:30 PM – 9:00 PM):**
   - **Landmark:** Tepat di sebelah **Warung Santai Cik Malik**
   - **Alamat:** 240B Taman Lembah Bujang Utama 8/2, Taman Lembah Bujang, 08100 Bedong, Kedah ([Google Maps](https://maps.app.goo.gl/b9YGPZtXLkSVwF4h8))
-- **Ahad:**
-  - **Lokasi:** **Kawasan Kabin UiTM** (Pre-order tutup 9:30 AM).
 
 ---
 

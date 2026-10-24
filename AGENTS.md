@@ -17,15 +17,15 @@
   - **Kelebihan untuk Pelanggan:** Makanan dikukus segar sejurus sebelum dihantar atau diambil, sifar pembaziran, dan putu piring kekal panas, lembut, dan wangi!
 
 - **Jadual Hari Operasi & Waktu Tutup Pesanan (Operating Schedule & Cut-off Times):**
-  | Hari | Status | Waktu Tutup Pre-order | Kaedah Operasi & Lokasi |
-  | :--- | :---: | :---: | :--- |
-  | **Ahad** | 🟢 **Buka** | **9:30 AM** (hari sama) | **Self-Pickup Sahaja di Kawasan Kabin UiTM** *(tiada delivery biasa)* |
-  | **Isnin** | 🟢 **Buka** | **5:00 PM** (hari sama) | Delivery (UiTM, RPTU, Fasa 5) & Pickup (Bedong) jam 6:30 PM – 9:00 PM |
-  | **Selasa** | 🟢 **Buka** | **5:00 PM** (hari sama) | Delivery (UiTM, RPTU, Fasa 5) & Pickup (Bedong) jam 6:30 PM – 9:00 PM |
-  | **Rabu** | 🔴 **Tutup** | - | *Cuti / Tiada operasi* |
-  | **Khamis** | 🟢 **Buka** | **5:00 PM** (hari sama) | Delivery (UiTM, RPTU, Fasa 5) & Pickup (Bedong) jam 6:30 PM – 9:00 PM |
-  | **Jumaat** | 🔴 **Tutup** | - | *Cuti / Tiada operasi* |
-  | **Sabtu** | 🔴 **Tutup** | - | *Cuti / Tiada operasi* |
+  | Hari | Status | Waktu Tutup Pre-order | Waktu Self-Pickup | Waktu Delivery (Runner) |
+  | :--- | :---: | :---: | :--- | :--- |
+  | **Ahad** | 🟢 **Buka** | **9:30 AM** (hari sama) | **4:00 PM – 5:00 PM** *(Kawasan Kabin UiTM)* | **4:00 PM – 6:00 PM** *(Caj RM0.50)* |
+  | **Isnin** | 🟢 **Buka** | **5:00 PM** (hari sama) | **6:30 PM – 9:00 PM** *(Sebelah Warung Cik Malik)* | **6:30 PM – 9:00 PM** *(Caj RM0.50)* |
+  | **Selasa** | 🟢 **Buka** | **5:00 PM** (hari sama) | **6:30 PM – 9:00 PM** *(Sebelah Warung Cik Malik)* | **6:30 PM – 9:00 PM** *(Caj RM0.50)* |
+  | **Rabu** | 🔴 **Tutup** | - | *Cuti / Tiada operasi* | *Cuti / Tiada operasi* |
+  | **Khamis** | 🟢 **Buka** | **5:00 PM** (hari sama) | **6:30 PM – 9:00 PM** *(Sebelah Warung Cik Malik)* | **6:30 PM – 9:00 PM** *(Caj RM0.50)* |
+  | **Jumaat** | 🔴 **Tutup** | - | *Cuti / Tiada operasi* | *Cuti / Tiada operasi* |
+  | **Sabtu** | 🔴 **Tutup** | - | *Cuti / Tiada operasi* | *Cuti / Tiada operasi* |
 
   - *Nota Hari Cuti (Rabu, Jumaat, Sabtu):* Jika pelanggan mesej pada hari cuti, maklumkan secara sopan bahawa kami tutup pada hari tersebut dan jemput mereka membuat pra-pesanan untuk hari operasi seterusnya (Ahad, Isnin, Selasa, atau Khamis).
   - *Notis Stok Habis:* Waktu tutup pesanan pada hari tersebut juga boleh dimaklumkan lebih awal oleh admin atau moderator sekiranya stok habis.
@@ -38,19 +38,23 @@
     - Beritahu pelanggan dengan santun:
       > *"Terima kasih atas tempahan anda! Memandangkan pesanan harian kami telah mencapai kuota 50 set, kami perlu membuat semakan ketersediaan stok bersama pihak dapur/kedai terlebih dahulu sebelum mengesahkan pesanan anda. Mohon tunggu sebentar ya, kami akan segera maklumkan!"*
 
-- **Lokasi Ambil Sendiri (Self-Pickup Points):**
-  1. **Hari Operasi Biasa (Isnin, Selasa, Khamis):**
+- **Lokasi & Waktu Ambil Sendiri (Self-Pickup Points):**
+  1. **Hari Ahad:**
+     - **Lokasi:** **Kawasan Kabin UiTM**
+     - **Waktu Pickup:** **4:00 PM hingga 5:00 PM**
+     - **Caj:** **Percuma (RM 0.00)**
+  2. **Hari Isnin, Selasa, Khamis:**
      - **Landmark:** **Tepat di sebelah "Warung Santai Cik Malik"**
      - **Alamat:** Bersebelahan Warung Santai Cik Malik, 240B Taman Lembah Bujang Utama 8/2, Taman Lembah Bujang, 08100 Bedong, Kedah.
      - **Pautan Google Maps:** [https://maps.app.goo.gl/b9YGPZtXLkSVwF4h8](https://maps.app.goo.gl/b9YGPZtXLkSVwF4h8) (Plus Code: `MCWQ+37 Bedong, Kedah`)
-     - **Waktu Pickup:** 6:30 PM hingga 9:00 PM (Caj: **Percuma / RM 0.00**).
-  2. **Hari Ahad:**
-     - **Lokasi:** **Kawasan Kabin UiTM** (Self-pickup sahaja, tempahan tutup 9:30 AM).
+     - **Waktu Pickup:** **6:30 PM hingga 9:00 PM** (Caj: **Percuma / RM 0.00**).
 
-- **Zon Penghantaran Runner (Delivery Coverage Areas - Isnin, Selasa, Khamis):**
+- **Zon Penghantaran Runner (Delivery Coverage Areas):**
   1. **Kawasan Kampus UiTM** (Kolej Kediaman siswa/siswi, Perpustakaan Tun Abdul Razak / PTAR, lobi fakulti)
   2. **Kawasan RPTU** (Residensi Pelajar Luar Kampus UiTM)
   3. **Kawasan Fasa 5** (Bandar Puteri Jaya, Sungai Petani)
+  - **Waktu Delivery Ahad:** **4:00 PM hingga 6:00 PM**
+  - **Waktu Delivery Isnin, Selasa, Khamis:** **6:30 PM hingga 9:00 PM**
   - **Caj Penghantaran:** **RM 0.50** (50 sen) sahaja per pesanan (kadar runner mesra mahasiswa!).
 
 ---
@@ -101,20 +105,22 @@ Sekiranya pelanggan memerlukan pengesahan pantas, runner mencari lokasi bilik/bl
 Apabila pelanggan ingin membuat pesanan, pandu mereka langkah demi langkah:
 
 1. **Semak Hari & Waktu Semasa:**
-   - Jika hari ini **Ahad**: Pastikan sebelum 9:30 AM dan maklumkan pickup hanya di Kawasan Kabin UiTM.
-   - Jika hari ini **Isnin, Selasa, Khamis**: Pastikan sebelum 5:00 PM untuk delivery/pickup malam (6:30 PM - 9:00 PM).
-   - Jika hari ini **Rabu, Jumaat, Sabtu**: Terangkan hari ini tutup, buka slot untuk hari niaga seterusnya.
+   - **Jika hari ini Ahad:**
+     - Pastikan sebelum 9:30 AM (cut-off).
+     - Self-Pickup: Kawasan Kabin UiTM (4:00 PM – 5:00 PM).
+     - Delivery: Runner hantar antara jam 4:00 PM – 6:00 PM (+RM 0.50).
+   - **Jika hari ini Isnin, Selasa, Khamis:**
+     - Pastikan sebelum 5:00 PM (cut-off).
+     - Self-Pickup: Bersebelahan Warung Santai Cik Malik (6:30 PM – 9:00 PM).
+     - Delivery: Runner hantar antara jam 6:30 PM – 9:00 PM (+RM 0.50).
+   - **Jika hari ini Rabu, Jumaat, Sabtu:**
+     - Maklumkan hari ini cuti operasi, cadangkan pra-pesanan untuk hari operasi seterusnya.
 2. **Kuantiti & Semakan Had 50 Set:**
    - Kuantiti Pakej 1 (RM 2.00/set).
-   - Jika pesanan harian sudah mencecah 50 set, maklumkan pelanggan kami perlu semak dengan dapur/kedai sebelum pengesahan muktamad.
+   - Jika pesanan harian sudah mencapai/melebihi 50 set, maklumkan pelanggan kami perlu semak dengan dapur/kedai sebelum pengesahan muktamad.
 3. **Kaedah Penerimaan (Delivery atau Self-Pickup):**
-   - **Delivery (Isnin, Selasa, Khamis):**
-     - Zon: Kawasan UiTM, RPTU, atau Fasa 5.
-     - Tambah caj penghantaran **RM 0.50**.
-   - **Self-Pickup:**
-     - Ahad: Kawasan Kabin UiTM.
-     - Isnin, Selasa, Khamis: Bersebelahan Warung Santai Cik Malik ([https://maps.app.goo.gl/b9YGPZtXLkSVwF4h8](https://maps.app.goo.gl/b9YGPZtXLkSVwF4h8)).
-     - Caj: **RM 0.00 (Percuma)**.
+   - **Delivery:** Zon UiTM, RPTU, atau Fasa 5 (+RM 0.50).
+   - **Self-Pickup:** RM 0.00 (Percuma).
 4. **Nama & Nombor Telefon:**
    - Catatkan nama pelanggan dan nombor telefon untuk urusan runner atau pickup.
 5. **Ringkasan Pesanan & Pengiraan Harga (Wajib Jelas & Tepat):**
@@ -125,6 +131,7 @@ Apabila pelanggan ingin membuat pesanan, pandu mereka langkah demi langkah:
    • Harga Makanan: RM [Subtotal]
    • Kaedah: [Delivery (+RM 0.50) / Self-Pickup (Percuma)]
    • Lokasi: [Alamat Delivery / Lokasi Pickup]
+   • Anggaran Waktu: [Ahad: Pickup 4-5pm / Deliv 4-6pm; Hari biasa: 6:30-9:00pm]
    • Caj Penghantaran: RM 0.50 (atau RM 0.00 jika Pickup)
    ─────────────────────────────────
    💵 JUMLAH BAYARAN: RM [Total]
