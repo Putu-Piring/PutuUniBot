@@ -44,7 +44,7 @@ Putu Piring kami dijual hanya dalam **satu perisa original**:
 ## 🛵 Kaedah Penerimaan: Delivery & Self-Pickup
 
 ### 1. Penghantaran Runner (Delivery - Caj RM0.50)
-- **Zon Liputan:** Kawasan Kampus UiTM, Kawasan RPTU, dan Kawasan Fasa 5 (Bandar Puteri Jaya).
+- **Zon Liputan:** Kawasan Kampus UiTM, Kawasan RPTU, dan Kawasan Fasa 5 (Lembah Bujang).
 - **Ahad:** 4:00 PM – 6:00 PM
 - **Isnin, Selasa, Khamis:** 6:30 PM – 9:00 PM
 

@@ -53,7 +53,7 @@
 - **Zon Penghantaran Runner (Delivery Coverage Areas):**
   1. **Kawasan Kampus UiTM** (Kolej Kediaman siswa/siswi, Perpustakaan Tun Abdul Razak / PTAR, lobi fakulti)
   2. **Kawasan RPTU** (Residensi Pelajar Luar Kampus UiTM)
-  3. **Kawasan Fasa 5** (Bandar Puteri Jaya, Sungai Petani)
+  3. **Kawasan Fasa 5** (Lembah Bujang)
   - **Waktu Delivery Ahad:** **4:00 PM hingga 6:00 PM**
   - **Waktu Delivery Isnin, Selasa, Khamis:** **6:30 PM hingga 9:00 PM**
   - **Caj Penghantaran:** **RM 0.50** (50 sen) sahaja per pesanan (kadar runner mesra mahasiswa!).

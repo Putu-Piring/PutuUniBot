@@ -20,7 +20,7 @@
         "zones": [
           "Kawasan UiTM (Kolej Kediaman, PTAR, Lobi Fakulti)",
           "RPTU (Residensi Pelajar Luar Kampus)",
-          "Kawasan Fasa 5 (Bandar Puteri Jaya)"
+          "Kawasan Fasa 5 (Lembah Bujang)"
         ]
       }
     },
@@ -38,7 +38,7 @@
         "zones": [
           "Kawasan UiTM (Kolej Kediaman, PTAR, Lobi Fakulti)",
           "RPTU (Residensi Pelajar Luar Kampus)",
-          "Kawasan Fasa 5 (Bandar Puteri Jaya)"
+          "Kawasan Fasa 5 (Lembah Bujang)"
         ]
       }
     },
@@ -56,7 +56,7 @@
         "zones": [
           "Kawasan UiTM (Kolej Kediaman, PTAR, Lobi Fakulti)",
           "RPTU (Residensi Pelajar Luar Kampus)",
-          "Kawasan Fasa 5 (Bandar Puteri Jaya)"
+          "Kawasan Fasa 5 (Lembah Bujang)"
         ]
       }
     },
@@ -78,7 +78,7 @@
         "zones": [
           "Kawasan UiTM (Kolej Kediaman, PTAR, Lobi Fakulti)",
           "RPTU (Residensi Pelajar Luar Kampus)",
-          "Kawasan Fasa 5 (Bandar Puteri Jaya)"
+          "Kawasan Fasa 5 (Lembah Bujang)"
         ]
       }
     },
@@ -142,7 +142,7 @@
     "zones": [
       "Kawasan UiTM (Kolej Kediaman, PTAR, Lobi Fakulti)",
       "RPTU (Residensi Pelajar Luar Kampus)",
-      "Kawasan Fasa 5 (Bandar Puteri Jaya)"
+      "Kawasan Fasa 5 (Lembah Bujang)"
     ],
     "regularHours": "6:30 PM - 9:00 PM (Isnin, Selasa, Khamis)",
     "sundayHours": "4:00 PM - 6:00 PM (Ahad)"
