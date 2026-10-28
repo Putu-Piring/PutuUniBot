@@ -46,17 +46,55 @@
         tg.ready();
         tg.expand();
 
-        // Apply Telegram colors if available
-        if (tg.themeParams) {
-            if (tg.themeParams.bg_color) {
-                document.documentElement.style.setProperty('--bg-page', tg.themeParams.bg_color);
+        // Dynamic theme synchronization ensuring high-contrast readable inputs
+        function syncTheme() {
+            const isDark = tg.colorScheme === 'dark' || 
+                (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+
+            if (isDark) {
+                document.body.classList.add('dark-mode');
+                document.documentElement.classList.remove('light-forced');
+                
+                const bg = tg.themeParams?.bg_color || '#0f172a';
+                const cardBg = tg.themeParams?.secondary_bg_color || '#1e293b';
+                const textColor = tg.themeParams?.text_color || '#f8fafc';
+                const hintColor = tg.themeParams?.hint_color || '#94a3b8';
+
+                document.documentElement.style.setProperty('--bg-page', bg);
+                document.documentElement.style.setProperty('--bg-card', cardBg);
+                document.documentElement.style.setProperty('--bottom-bar-bg', cardBg);
+                document.documentElement.style.setProperty('--text-main', textColor);
+                document.documentElement.style.setProperty('--text-muted', hintColor);
+                document.documentElement.style.setProperty('--border', '#334155');
+                document.documentElement.style.setProperty('--input-bg', bg);
+                document.documentElement.style.setProperty('--input-text', textColor);
+                document.documentElement.style.setProperty('--input-border', '#475569');
+                document.documentElement.style.setProperty('--input-placeholder', hintColor);
+            } else {
+                document.body.classList.remove('dark-mode');
+                document.documentElement.classList.add('light-forced');
+
+                const bg = tg.themeParams?.bg_color || '#f8fafc';
+                const cardBg = tg.themeParams?.secondary_bg_color || '#ffffff';
+                const textColor = tg.themeParams?.text_color || '#0f172a';
+                const hintColor = tg.themeParams?.hint_color || '#64748b';
+
+                document.documentElement.style.setProperty('--bg-page', bg);
+                document.documentElement.style.setProperty('--bg-card', cardBg);
+                document.documentElement.style.setProperty('--bottom-bar-bg', '#ffffff');
+                document.documentElement.style.setProperty('--text-main', textColor);
+                document.documentElement.style.setProperty('--text-muted', hintColor);
+                document.documentElement.style.setProperty('--border', '#e2e8f0');
+                document.documentElement.style.setProperty('--input-bg', '#ffffff');
+                document.documentElement.style.setProperty('--input-text', '#0f172a');
+                document.documentElement.style.setProperty('--input-border', '#cbd5e1');
+                document.documentElement.style.setProperty('--input-placeholder', '#94a3b8');
             }
-            if (tg.themeParams.secondary_bg_color) {
-                document.documentElement.style.setProperty('--bg-card', tg.themeParams.secondary_bg_color);
-            }
-            if (tg.themeParams.text_color) {
-                document.documentElement.style.setProperty('--text-main', tg.themeParams.text_color);
-            }
+        }
+
+        syncTheme();
+        if (typeof tg.onEvent === 'function') {
+            tg.onEvent('themeChanged', syncTheme);
         }
 
         // Prefill user details from Telegram
