@@ -172,7 +172,17 @@
   ],
   "paymentMethods": [
     "DuitNow QR",
-    "Online Bank Transfer",
-    "Cash on Delivery / Pickup"
-  ]
+    "Online Bank Transfer"
+  ],
+  "bankAccount": {
+    "bankName": "RHB Bank / RHB Islamic",
+    "accountHolder": "MUHAMAD NASRUL BIN HUSSAIN",
+    "accountNumber": "15702300329484",
+    "accountType": "Savings Pro Account-i"
+  },
+  "tngEwallet": {
+    "accountHolder": "MUHAMAD NASRUL BIN HUSSAIN",
+    "accountNumber": "100194273527",
+    "duitnowPhone": "019-4464970"
+  }
 }

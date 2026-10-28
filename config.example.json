@@ -1,0 +1,36 @@
+{
+  "botName": "Putu Piring Uni",
+  "telegramHandle": "@putu_uni_bot",
+  "botId": 8965329925,
+  "botToken": "YOUR_TELEGRAM_BOT_TOKEN_HERE",
+  "merchantName": "MUHAMAD NASRUL BIN HUSSAIN",
+  "merchantCity": "MY",
+  "postalCode": "08100",
+  "currencyCode": "458",
+  "countryCode": "MY",
+  "defaultStaticPayload": "00020201021126580014A000000615000101065641600226215702300329484RHBQR0000005204000053034585802MY5925MUHAMAD NASRUL BIN HUSSAI6002MY82649D4897E0446B0C770FAE49C08681264DD3FACA5706D0D6B2FB0A410D21AB899E6304CF90",
+  "bankDetails": {
+    "bankName": "RHB Bank Berhad / RHB Islamic",
+    "accountName": "MUHAMAD NASRUL BIN HUSSAIN",
+    "accountNumber": "15702300329484",
+    "accountType": "Savings Pro Account-i"
+  },
+  "tngEwallet": {
+    "accountName": "MUHAMAD NASRUL BIN HUSSAIN",
+    "accountNumber": "100194273527",
+    "status": "Verified",
+    "phone": "019-4464970"
+  },
+  "contacts": [
+    {
+      "name": "Aiman",
+      "role": "PIC / Runner",
+      "phone": "011-39163313"
+    },
+    {
+      "name": "Nasrul",
+      "role": "PIC / Pengurusan",
+      "phone": "019-4464970"
+    }
+  ]
+}

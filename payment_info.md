@@ -1,16 +1,19 @@
-# Maklumat Pembayaran Putu Piring Uni 💳
+# Kaedah Pembayaran Putu Piring Uni 💳
 
-Pelanggan boleh membuat bayaran melalui kaedah berikut:
+Pilihan bayaran tanpa tunai (*cashless*) yang mudah & pantas:
 
-### 1. Bayaran Tunai (Cash on Delivery / Pickup)
-- Bayaran tunai diterima semasa mengambil pesanan di gerai (self-pickup) atau semasa runner menghantar pesanan (COD).
+1. **DuitNow QR Dinamik (Disyorkan - Semua Bank & ShopeePay):**
+   * Kod QR dengan jumlah terkunci tepat dijana automatik mengikut pesanan anda.
 
-### 2. DuitNow QR / Pindahan Bank
-- **DuitNow / Nombor Pindahan:** Sila hubungi PIC kami untuk imbasan QR atau nombor akaun rasmi terkini:
-  - **Aiman (Runner / PIC):** `011-39163313`
-  - **Nasrul (Pengurusan / PIC):** `019-4464970`
-- **Rujukan Bayaran:** Sila letakkan Nama Pelanggan & Bilangan Set Putu Piring.
+2. **Touch 'n Go eWallet:**
+   * No. Akaun TNG DuitNow: `100194273527` (MUHAMAD NASRUL)
+   * Proxy Telefon: `019-4464970`
+
+3. **Pindahan RHB Bank:**
+   * No. Akaun: `15702300329484` (MUHAMAD NASRUL BIN HUSSAIN)
+
+4. **Tunai (COD / Pickup):**
+   * Bayar semasa pesanan diterima.
 
 ---
-
-> ℹ️ **Sila muat naik tangkap layar (screenshot) resit pembayaran** ke dalam perbualan Telegram ini untuk pengesahan segera pesanan anda oleh pasukan Putu Piring Uni.
+📸 *Selepas membuat bayaran, hantarkan tangkapan skrin (screenshot) resit ke sini untuk pengesahan segera!*

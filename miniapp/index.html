@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Putu Piring Uni - Aplikasi Pesanan</title>
+    <!-- Telegram WebApp JS SDK -->
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Brand Header -->
+        <header class="brand-header">
+            <div class="brand-info">
+                <img src="assets/putu_piring_uni_logo.png" alt="Putu Piring Uni" class="brand-logo" onerror="this.src='assets/putu_piring_uni_avatar_512.png'">
+                <div class="brand-text">
+                    <h1>Putu Piring Uni <span class="brand-badge">Pra-Pesanan</span></h1>
+                    <div class="brand-tagline">Gebu, lembut & beraroma gula merah asli</div>
+                </div>
+            </div>
+            <div class="schedule-pill" id="schedulePill">
+                🟢 Memuatkan jadual operasi...
+            </div>
+        </header>
+
+        <!-- Menu Section -->
+        <h2 class="section-title">🍮 Menu Pilihan</h2>
+        
+        <!-- Pakej 1 (Active) -->
+        <div class="card menu-card">
+            <img src="assets/menu_placeholder.jpg" alt="Pakej 1" class="menu-thumb" onerror="this.style.display='none'">
+            <div class="menu-content">
+                <div class="menu-title">
+                    <span>Pakej 1: Putu Piring Asli (2 biji)</span>
+                    <span class="tag-popular">Pilihan Utama ⭐</span>
+                </div>
+                <div class="menu-desc">2 biji putu piring kukus gebu berinti Gula Merah & kelapa parut segar, dibalut kertas minyak.</div>
+                <div class="menu-price-row">
+                    <div class="menu-price">RM 2.00 <span style="font-size: 11px; font-weight: normal; color: var(--text-muted);">/ pek</span></div>
+                    <div class="stepper">
+                        <button type="button" class="stepper-btn" id="btnMinus" aria-label="Kurangkan">−</button>
+                        <span class="stepper-val" id="qtyVal">1</span>
+                        <button type="button" class="stepper-btn" id="btnPlus" aria-label="Tambah">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pakej 2 (Coming Soon) -->
+        <div class="card menu-card disabled">
+            <div class="menu-thumb" style="display: flex; align-items: center; justify-content: center; font-size: 28px; background: #e2e8f0;">☕</div>
+            <div class="menu-content">
+                <div class="menu-title">
+                    <span>Pakej 2: Kombo + Kopi-O</span>
+                    <span class="tag-soon">Akan Datang ⏳</span>
+                </div>
+                <div class="menu-desc">2 biji putu piring asli bersama secawan Kopi-O panas kaw.</div>
+                <div class="menu-price-row">
+                    <div class="menu-price" style="color: #94a3b8;">RM 2.50</div>
+                    <span style="font-size: 11px; color: #94a3b8; font-style: italic;">Belum dibuka</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fulfillment Method Section -->
+        <h2 class="section-title">🛵 Kaedah Serahan</h2>
+        <div class="fulfillment-grid">
+            <div class="fulfillment-btn active" id="radioDelivery">
+                <div class="fulfillment-icon">🛵</div>
+                <div class="fulfillment-title">Penghantaran</div>
+                <div class="fulfillment-fee">+ RM 0.50 per trip</div>
+            </div>
+            <div class="fulfillment-btn" id="radioPickup">
+                <div class="fulfillment-icon">🏢</div>
+                <div class="fulfillment-title">Ambil Sendiri</div>
+                <div class="fulfillment-fee">Percuma (RM 0.00)</div>
+            </div>
+        </div>
+
+        <!-- Delivery Fields -->
+        <div id="deliveryFields" class="card">
+            <div class="form-group">
+                <label for="inputZone" class="form-label">Zon Penghantaran <span class="req">*</span></label>
+                <select id="inputZone" class="form-select">
+                    <option value="Kawasan UiTM (Kolej Kediaman, PTAR, Lobi Fakulti)">Kawasan UiTM (Kolej, PTAR, Fakulti)</option>
+                    <option value="RPTU (Residensi Pelajar Luar Kampus)">RPTU (Residensi Pelajar Luar Kampus)</option>
+                    <option value="Kawasan Fasa 5 (Lembah Bujang)">Kawasan Fasa 5 (Lembah Bujang)</option>
+                </select>
+            </div>
+            <div class="form-group" style="margin-bottom: 0;">
+                <label for="inputAddress" class="form-label">Lokasi Serahan Spesifik <span class="req">*</span></label>
+                <input type="text" id="inputAddress" class="form-input" placeholder="Cth: Kolej Dahlia 2 Bilik 310 / Lobi PTAR">
+                <div style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">Runner akan serahkan di lobi blok, pintu pagar, atau pondok pengawal.</div>
+            </div>
+        </div>
+
+        <!-- Pickup Fields -->
+        <div id="pickupFields" class="card" style="display: none;">
+            <div class="pickup-info-box" id="pickupVenueText">
+                Memuatkan lokasi ambil sendiri...
+            </div>
+        </div>
+
+        <!-- Customer Details Section -->
+        <h2 class="section-title">👤 Butiran Pelanggan</h2>
+        <div class="card">
+            <div class="form-group">
+                <label for="inputName" class="form-label">Nama Penuh <span class="req">*</span></label>
+                <input type="text" id="inputName" class="form-input" placeholder="Cth: Muhammad Nasrul">
+            </div>
+            <div class="form-group">
+                <label for="inputPhone" class="form-label">No. Telefon / WhatsApp <span class="req">*</span></label>
+                <input type="tel" id="inputPhone" class="form-input" placeholder="Cth: 01139163313">
+            </div>
+            <div class="form-group" style="margin-bottom: 0;">
+                <label for="inputNotes" class="form-label">Nota Khas (Pilihan)</label>
+                <textarea id="inputNotes" class="form-textarea" placeholder="Cth: Kelapa parut asingkan / sudu tambahan"></textarea>
+            </div>
+        </div>
+
+        <!-- Order Summary Section -->
+        <h2 class="section-title">🧾 Ringkasan Pesanan</h2>
+        <div class="card">
+            <div class="breakdown-row">
+                <span>Putu Piring Asli (<span id="summaryQty">1 set</span>)</span>
+                <span id="summaryFoodSubtotal">RM 2.00</span>
+            </div>
+            <div class="breakdown-row" id="summaryDeliveryRow">
+                <span>Caj Penghantaran (Runner)</span>
+                <span id="summaryDeliveryFee">RM 0.50</span>
+            </div>
+            <div class="breakdown-row total-row">
+                <span>Jumlah Bayaran</span>
+                <span class="total-amount" id="summaryTotalAmount">RM 2.50</span>
+            </div>
+        </div>
+
+        <!-- Strict Payment Policy Alert -->
+        <div class="alert-box">
+            <div style="font-size: 18px;">⚠️</div>
+            <div>
+                <b>Dasar Pembayaran:</b> Tiada Tunai Semasa Serahan (Tiada COD). Bayaran tanpa tunai (DuitNow QR / TnG eWallet / RHB Bank) akan dipaparkan sebaik sahaja pesanan dihantar.
+            </div>
+        </div>
+    </div>
+
+    <!-- Sticky Bottom Checkout Bar (for browsers or Telegram Web) -->
+    <div class="bottom-bar">
+        <div class="bottom-container">
+            <div>
+                <div class="bottom-total-label">Jumlah</div>
+                <div class="bottom-total-val" id="bottomTotalAmount">RM 2.50</div>
+            </div>
+            <button type="button" class="btn-submit" id="btnSubmit">
+                HANTAR PESANAN
+            </button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
